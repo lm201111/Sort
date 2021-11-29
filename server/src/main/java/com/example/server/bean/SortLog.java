@@ -9,21 +9,9 @@ public class SortLog extends Line {
     private List<Line> list;
 
 
-    public SortLog(List<Line> list, int i) {
+    public SortLog(List<Line> list, List<Integer> indexes) {
         this.tm = new Date().getTime();
         this.list = list;
-        this.index = i;
-    }
-
-    public Long getTm() {
-        return tm;
-    }
-
-    public Integer getIndex() {
-        return index;
-    }
-
-    public List<Line> getList() {
-        return list;
+        this.index = indexes;
     }
 }
