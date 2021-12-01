@@ -41,6 +41,14 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
+    ['nuxt-fontawesome',{
+    imports:[
+      {
+        set:'@fortawesome/free-solid-svg-icons',
+        icons:['fas']
+      }
+    ]
+    }]
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

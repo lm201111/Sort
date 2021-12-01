@@ -14,7 +14,7 @@ public class Line {
         return val;
     }
 
-    public boolean compare(Line other){
+    public boolean needToReplace(Line other){
         return this.getVal() < other.getVal();
     }
 }

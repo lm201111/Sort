@@ -5,9 +5,8 @@ import java.util.List;
 
 public class SortLog extends Line {
     private Long tm;
-    private  Integer index;
+    private List<Integer> index;
     private List<Line> list;
-
 
     public SortLog(List<Line> list, List<Integer> indexes) {
         this.tm = new Date().getTime();

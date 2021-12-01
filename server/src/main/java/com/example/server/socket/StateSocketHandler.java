@@ -14,7 +14,7 @@ import org.springframework.web.socket.handler.TextWebSocketHandler;
 import com.example.server.SortServiceFactory;
 import com.example.server.bean.SortLog;
 import com.example.server.bean.SortType;
-import com.example.server.scoket.bean.IncomeMessage;
+import com.example.server.socket.bean.IncomeMessage;
 import com.google.gson.Gson;
 
 public class StateSocketHandler extends TextWebSocketHandler {
